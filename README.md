@@ -2,6 +2,8 @@
 
 Fast and easy Color Lookup Table(LUT) fliter using GLSL. 
 
+![sample image](https://github.com/yasuhirohoshino/ofxGpuLut/blob/master/ofxGPULUT.jpg)
+
 By Yasuhiro Hoshino
 
 yasuhiro.hoshino.0122 at gmail.com
