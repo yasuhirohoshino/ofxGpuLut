@@ -3,7 +3,9 @@
 Fast and easy Color Lookup Table(LUT) fliter using GLSL. 
 
 By Yasuhiro Hoshino
+
 yasuhiro.hoshino.0122 at gmail.com
+
 http://www.yasuhirohoshino.com
 
 How to make your original LUT is written on following article.
