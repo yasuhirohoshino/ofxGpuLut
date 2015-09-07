@@ -12,10 +12,10 @@ http://www.yasuhirohoshino.com
 
 ##How to make original LUT
 
-written on following article.
+written on following article. (Photoshop Tutorial)
 
 <a href = "http://nghiatran.me/filter-me-color-lookup-table-part-2/">
 http://nghiatran.me/filter-me-color-lookup-table-part-2/
 </a>
 
-Of cource you can make it using Gimp or any other photo retouching soft.
+Of cource you can make it using Gimp or any other free photo retouching soft.
