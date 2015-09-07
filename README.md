@@ -8,7 +8,7 @@ yasuhiro.hoshino.0122 at gmail.com
 
 http://www.yasuhirohoshino.com
 
-----------
+-
 
 How to make your original LUT is written on following article.
 
