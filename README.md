@@ -1,6 +1,6 @@
 # ofxGpuLut
 
-Fast and easy Color Lookup Table(LUT) fliter using GLSL. 
+ofxGpuLut is a fast and easy Color Lookup Table(LUT) fliter plugnin for openFrameworks. 
 
 ![sample image](ofxGPULUT.jpg)
 
