@@ -1,6 +1,6 @@
 # ofxGpuLut
 
-ofxGpuLut is a fast and easy Color Lookup Table(LUT) fliter plugin for openFrameworks. 
+ofxGpuLut is a fast and easy Color Lookup Table(LUT) fliter addon for openFrameworks. 
 
 ![sample image](ofxGPULUT.jpg)
 
