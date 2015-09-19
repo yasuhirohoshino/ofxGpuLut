@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D4B8AAB3-7984-4685-9E0E-8AB418DDF0B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ofxGpuLutExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2696ECDA5E7D354A355C278B74879B080933DCA</key>
+		<string>https://github.com/yasuhirohoshino/ofxGpuLut.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ofxGpuLutExample/ofxGpuLutExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2696ECDA5E7D354A355C278B74879B080933DCA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yasuhirohoshino/ofxGpuLut.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2696ECDA5E7D354A355C278B74879B080933DCA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2696ECDA5E7D354A355C278B74879B080933DCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxGpuLut</string>
+		</dict>
+	</array>
+</dict>
+</plist>
