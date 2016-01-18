@@ -13,12 +13,22 @@ void ofxGpuLut::load(ofTexture lutTexture){
                                 
                                 void main( void )
                                 {
-                                    vec3 originalColor = floor(texture2DRect(tex, gl_TexCoord[0].st).rgb * vec3(size - 1.0));
-                                    vec2 blueIndex = vec2(mod(originalColor.b, sqrt(size)), floor(originalColor.b / sqrt(size)));
-                                    vec2 index = vec2((size * blueIndex.x + originalColor.r) + 0.5, (size * blueIndex.y + originalColor.g) + 0.5);
-                                    gl_FragColor = vec4(texture2DRect(lut, index).rgb, 1.0);
+                                    vec3 rawColor = texture2DRect(tex, gl_TexCoord[0].st).rgb;
+                                    float rawAlpha = texture2DRect(tex, gl_TexCoord[0].st).a;
+                                    
+                                    if (rawAlpha <= 0.0) {
+                                        gl_FragColor = vec4(rawColor, 0.0);
+                                    }
+                                    else {
+                                        vec3 originalColor = floor(texture2DRect(tex, gl_TexCoord[0].st).rgb * vec3(size - 1.0));
+                                        vec2 blueIndex = vec2(mod(originalColor.b, sqrt(size)), floor(originalColor.b / sqrt(size)));
+                                        vec2 index = vec2((size * blueIndex.x + originalColor.r) + 0.5, (size * blueIndex.y + originalColor.g) + 0.5);
+                                        gl_FragColor = vec4(texture2DRect(lut, index).rgb, rawAlpha);
+                                    }
                                 }
                                 );
+    
+    
     lutShader.unload();
     lutShader.setupShaderFromSource(GL_FRAGMENT_SHADER, fragmentShader);
     lutShader.linkProgram();
