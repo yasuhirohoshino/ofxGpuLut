@@ -34,12 +34,12 @@ void ofxGpuLut::load(ofTexture lutTexture){
 }
 
 void ofxGpuLut::load(ofImage lutImage){
-    load(lutImage.getTextureReference());
+    load(lutImage.getTexture());
 }
 
 void ofxGpuLut::load(string path){
-    lutImage.loadImage(path);
-    load(lutImage.getTextureReference());
+    lutImage.load(path);
+    load(lutImage.getTexture());
 }
 
 void ofxGpuLut::begin(){
