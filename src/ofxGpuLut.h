@@ -9,6 +9,7 @@ class ofxGpuLut{
 private:
     ofShader lutShader;
     ofTexture lut;
+    string vertexShader;
     string fragmentShader;
     ofImage lutImage;
 public:
